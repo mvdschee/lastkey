@@ -1,0 +1,17 @@
+// ===============================================================
+//  MIXINS
+// ===============================================================
+@mixin break-long-word() {
+    @media all and (max-width: $m) {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+        hyphens: auto;
+    }
+}
+
+@mixin max-width() {
+    margin: 0 auto;
+    max-width: $max-width;
+}

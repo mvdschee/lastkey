@@ -2,7 +2,7 @@
     "build": {
         "beforeDevCommand": "pnpm dev",
         "beforeBuildCommand": "pnpm build",
-        "devPath": "http://localhost:5173",
+        "devPath": "http://localhost:3000",
         "distDir": "../dist",
         "withGlobalTauri": false
     },
@@ -16,6 +16,23 @@
             "shell": {
                 "all": false,
                 "open": true
+            },
+            "window": {
+                "all": false,
+                "startDragging": true
+            },
+            "fs": {
+                "scope": ["$HOME/.lastkey/*"],
+                "all": false,
+                "readFile": true,
+                "writeFile": true,
+                "readDir": true,
+                "copyFile": false,
+                "createDir": true,
+                "removeDir": true,
+                "removeFile": true,
+                "renameFile": true,
+                "exists": true
             }
         },
         "bundle": {
@@ -43,7 +60,7 @@
                 "signingIdentity": null
             },
             "iOS": {
-                "developmentTeam": "logan"
+                "developmentTeam": "maxvanderschee"
             },
             "resources": [],
             "shortDescription": "",
@@ -66,7 +83,9 @@
                 "height": 600,
                 "resizable": true,
                 "title": "lastkey",
-                "width": 800
+                "width": 800,
+                "hiddenTitle": true,
+                "titleBarStyle": "Overlay"
             }
         ]
     }

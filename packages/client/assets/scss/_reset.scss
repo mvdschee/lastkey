@@ -1,0 +1,78 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+video,
+canvas {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+iframe {
+    width: 100%;
+    border: 0;
+}
+
+input,
+button,
+textarea,
+select {
+    color: inherit;
+    font: inherit;
+}
+
+input[type='checkbox'] {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+}
+
+select {
+    appearance: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+// will create specificication of 0
+ul:where([class]) {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
