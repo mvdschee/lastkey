@@ -9,8 +9,5 @@
         "dev:client": "cd packages/client && pnpm tauri:dev",
         "build:client": "cd packages/client && pnpm tauri:build"
     },
-    "packageManager": "pnpm@7.25.0",
-    "devDependencies": {
-        "internal-ip": "^7.0.0"
-    }
+    "packageManager": "pnpm@7.25.0"
 }
