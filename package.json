@@ -6,8 +6,8 @@
     "author": "Max van der Schee",
     "type": "module",
     "scripts": {
-        "dev:client": "cd packages/client && pnpm tauri:dev",
-        "build:client": "cd packages/client && pnpm tauri:build"
+        "dev:client": "cd packages/lastkey && pnpm tauri dev",
+        "build:client": "cd packages/lastkey && pnpm tauri build"
     },
-    "packageManager": "pnpm@7.25.0"
+    "packageManager": "pnpm@7.28.0"
 }

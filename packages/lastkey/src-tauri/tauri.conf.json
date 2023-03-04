@@ -80,12 +80,10 @@
         "windows": [
             {
                 "fullscreen": false,
-                "height": 600,
+                "height": 800,
                 "resizable": true,
                 "title": "lastkey",
-                "width": 800,
-                "hiddenTitle": true,
-                "titleBarStyle": "Overlay"
+                "width": 500
             }
         ]
     }

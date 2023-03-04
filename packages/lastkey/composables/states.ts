@@ -1,1 +1,1 @@
-export const useLoading = () => useState<boolean>('page_loading', () => false);
+export const useLoading = () => useState<boolean>('loading', () => false);

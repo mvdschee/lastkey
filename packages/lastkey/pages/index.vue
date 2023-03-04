@@ -1,21 +1,17 @@
 <template>
-    <main class="page-welcome">
-        <h1>Welcome to Lastkey</h1>
-        <NuxtLink class="link" to="/app">App</NuxtLink>
+    <main class="page-main">
+        <ElementsScanner />
     </main>
 </template>
 
-<script setup lang="ts">
-definePageMeta({
-    layout: 'intro',
-});
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss">
-.page-welcome {
+.page-main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: $spacing;
 
     h1 {
         text-align: center;
