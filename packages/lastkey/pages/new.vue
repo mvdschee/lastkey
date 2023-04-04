@@ -1,5 +1,7 @@
 <template>
-    <main class="page-main"></main>
+    <main class="page-main">
+        <ElementsScanner />
+    </main>
 </template>
 
 <script setup lang="ts"></script>

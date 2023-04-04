@@ -5,6 +5,6 @@
 
 use lastkey::AppBuilder;
 
-fn main() {
+pub fn main() {
     AppBuilder::new().run();
 }

@@ -14,16 +14,15 @@
     },
     "dependencies": {
         "@mvdschee/use": "^0.0.29",
-        "@tauri-apps/api": "2.0.0-alpha.0",
-        "qr-svg": "^1.1.0",
-        "qr-scanner": "^1.4.2"
+        "@tauri-apps/api": "2.0.0-alpha.2",
+        "qr-scanner": "^1.4.2",
+        "qr-svg": "^1.1.0"
     },
     "devDependencies": {
-        "@tauri-apps/cli": "2.0.0-alpha.2",
-        "@types/node": "^18.13.0",
-        "internal-ip": "^7.0.0",
-        "nuxt": "^3.2.0",
-        "sass": "^1.58.2",
+        "@tauri-apps/cli": "2.0.0-alpha.6",
+        "@types/node": "^18.15.11",
+        "nuxt": "^3.3.3",
+        "sass": "^1.60.0",
         "typescript": "^4.9.5"
     }
 }
