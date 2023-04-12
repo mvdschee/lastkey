@@ -22,7 +22,9 @@
                 "startDragging": true
             },
             "fs": {
-                "scope": ["$HOME/.lastkey/*"],
+                "scope": [
+                    "$HOME/.lastkey/*"
+                ],
                 "all": false,
                 "readFile": true,
                 "writeFile": true,
@@ -81,9 +83,11 @@
             {
                 "fullscreen": false,
                 "height": 800,
-                "resizable": true,
+                "resizable": false,
                 "title": "lastkey",
-                "width": 500
+                "width": 500,
+                "hiddenTitle": true,
+                "titleBarStyle": "Overlay"
             }
         ]
     }

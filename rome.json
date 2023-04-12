@@ -1,0 +1,29 @@
+{
+    "$schema": "./node_modules/rome/configuration_schema.json",
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true
+        },
+        "ignore": [
+            ".playground/",
+            ".nuxt/"
+        ]
+    },
+    "formatter": {
+        "enabled": true,
+        "formatWithErrors": false,
+        "indentStyle": "space",
+        "indentSize": 4,
+        "lineWidth": 120,
+        "ignore": [
+            ".playground/",
+            ".nuxt/"
+        ]
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "single"
+        }
+    }
+}

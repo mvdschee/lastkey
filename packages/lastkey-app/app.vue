@@ -1,5 +1,8 @@
 <template>
     <div class="app">
+        <Teleport to="body">
+            <div data-tauri-drag-region class="titlebar"></div>
+        </Teleport>
         <BaseSprite />
         <span v-if="loading" class="loading-app"></span>
         <NuxtPage
@@ -34,6 +37,25 @@ const loading = useLoading();
         var(--primary-2) 80%
     );
     animation: pulse 1.5s ease infinite;
+}
+
+.titlebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    user-select: none;
+    cursor: grab;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &:active {
+        cursor: grabbing;
+    }
 }
 
 @keyframes pulse {

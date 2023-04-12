@@ -13,7 +13,7 @@
         "tauri": "tauri"
     },
     "dependencies": {
-        "@mvdschee/use": "^0.0.29",
+        "@mvdschee/use": "^0.0.30",
         "@tauri-apps/api": "2.0.0-alpha.2",
         "qr-scanner": "^1.4.2",
         "qr-svg": "^1.1.0"
@@ -22,7 +22,6 @@
         "@tauri-apps/cli": "2.0.0-alpha.6",
         "@types/node": "^18.15.11",
         "nuxt": "^3.3.3",
-        "sass": "^1.60.0",
-        "typescript": "^4.9.5"
+        "sass": "^1.62.0"
     }
 }

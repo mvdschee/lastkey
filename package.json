@@ -5,9 +5,19 @@
     "license": "MIT",
     "author": "Max van der Schee",
     "type": "module",
+    "contributors": [
+        "Max van der Schee"
+    ],
     "scripts": {
-        "dev": "cd packages/lastkey && pnpm tauri ios dev",
-        "build": "cd packages/lastkey && pnpm tauri ios build"
+        "dev:app": "cd packages/lastkey-app && pnpm tauri dev",
+        "build:app": "cd packages/lastkey-app && pnpm tauri build"
     },
-    "packageManager": "pnpm@8.1.1"
+    "packageManager": "pnpm@8.2.0",
+    "dependencies": {
+        "rome": "^11.0.0",
+        "typescript": "^5.0.4"
+    },
+    "engines": {
+        "node": "18.x"
+    }
 }

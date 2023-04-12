@@ -1,9 +1,6 @@
 export default defineNuxtConfig(async () => {
     return {
         ssr: false,
-        typescript: {
-            shim: false,
-        },
         // global style import (should be just 1)
         css: ['assets/scss/style.scss'],
         vite: {

@@ -69,7 +69,7 @@ onUnmounted(() => {
     }
 
     p {
-        color: white;
+        color: var(--color);
     }
 
     @keyframes scale {
