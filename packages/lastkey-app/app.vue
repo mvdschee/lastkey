@@ -11,6 +11,7 @@
                 mode: 'out-in',
             }"
         />
+        <BaseMenu />
     </div>
 </template>
 
@@ -30,7 +31,7 @@ const loading = useLoading();
     top: 0;
     left: 0;
     width: 100%;
-    height: 0.2rem;
+    height: 0.4rem;
     background: linear-gradient(
         91.99deg,
         var(--primary-1) 1%,

@@ -2,28 +2,23 @@
     --white: #fff;
     --grey: #434048;
     --black: #000;
-    --darker-purple: #18161b;
-    --darker-purple-30: #5d5c5f70;
-    --darkest-purple: #100f13;
 
+    --primary-0: #959bfc;
     --primary-1: #686ef3;
     --primary-2: #e13e3c;
 
     // background
     --background: var(--white);
-    --background-base: var(--white);
 
     //text
-    --color: var(--white);
+    --color: var(--black);
     --color-alt: var(--grey);
-    --color-inverted: var(--black);
-    --color-highlight: var(--primary-1);
 
-    --border: var(--darker-purple-30);
+    --border: var(--grey);
 
     //button
-    --button-primary: var(--white);
-    --button-primary-color: var(--black);
+    --button-primary: var(--black);
+    --button-primary-color: var(--white);
 
     --button-soft: var(--grey);
     --button-soft-color: var(--white);
@@ -31,6 +26,6 @@
 
 body {
     margin: 0;
-    background-color: var(--background-base);
+    background-color: var(--background);
     color: var(--color);
 }
