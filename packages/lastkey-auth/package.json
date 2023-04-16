@@ -1,0 +1,29 @@
+{
+    "name": "@mvdschee/lastkey-auth",
+    "private": true,
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "Max van der Schee",
+    "contributors": [
+        "Max van der Schee"
+    ],
+    "type": "module",
+    "browser": "dist/main.cjs",
+    "module": "dist/main.mjs",
+    "exports": {
+        ".": {
+            "require": "./dist/main.cjs",
+            "default": "./dist/main.mjs"
+        }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-check --tsconfig ./tsconfig.json"
+    },
+    "dependencies": {
+        "@paulmillr/qr": "^0.1.0",
+        "nanoid": "^4.0.2"
+    }
+}

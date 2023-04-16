@@ -15,8 +15,7 @@
     "dependencies": {
         "@mvdschee/use": "^0.0.30",
         "@tauri-apps/api": "2.0.0-alpha.2",
-        "qr-scanner": "^1.4.2",
-        "qr-svg": "^1.1.0"
+        "@paulmillr/qr": "^0.1.0"
     },
     "devDependencies": {
         "@tauri-apps/cli": "2.0.0-alpha.6",

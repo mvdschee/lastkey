@@ -1,0 +1,15 @@
+:host {
+    --font-family: var(--lk-font-family, sans-serif);
+    --font-size: var(--lk-font-size, 16px);
+    --color: var(--lk-color, #fff);
+
+    color: var(--color);
+}
+
+:host * {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.2;
+}

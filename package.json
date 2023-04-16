@@ -3,19 +3,28 @@
     "private": true,
     "repository": "mvdschee/lastkey",
     "license": "MIT",
-    "author": "Max van der Schee",
     "type": "module",
+    "author": "Max van der Schee",
     "contributors": [
         "Max van der Schee"
     ],
     "scripts": {
         "dev:app": "cd packages/lastkey-app && pnpm tauri dev",
-        "build:app": "cd packages/lastkey-app && pnpm tauri build"
+        "dev:auth": "cd packages/lastkey-auth && pnpm dev",
+        "build:app": "cd packages/lastkey-app && pnpm tauri build",
+        "build:auth": "cd packages/lastkey-auth && pnpm build"
     },
     "packageManager": "pnpm@8.2.0",
     "dependencies": {
         "rome": "^11.0.0",
-        "typescript": "^5.0.4"
+        "typescript": "^5.0.4",
+        "@sveltejs/vite-plugin-svelte": "^2.0.4",
+        "@tsconfig/svelte": "^4.0.1",
+        "svelte": "^3.58.0",
+        "svelte-check": "^3.2.0",
+        "tslib": "^2.5.0",
+        "sass": "^1.62.0",
+        "vite": "^4.2.1"
     },
     "engines": {
         "node": "18.x"
