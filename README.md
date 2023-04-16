@@ -1,5 +1,9 @@
 # lastkey
 
+<p align="center">
+    <img alt="" src="./lastkey-banner.png" />
+</p>
+
 Open source passkey based login and account management
 
 ## What is lastkey?
